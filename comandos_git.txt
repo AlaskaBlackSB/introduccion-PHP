@@ -1,0 +1,20 @@
+//Inicializando un repositorio en un directorio existente
+$ git init
+
+//Agregar archivos para controlar las versiones de
+$ git add nombre_archivo.extencion                  //Agrega un archivo en específico
+$ git add .                                         //Agrega todos los archivos existentes del proyecto
+$ git add nombre_carpeta/nombre_archivo.extencion   //Agrega un archivo en específico de una carpeta
+$ git add nombre_carpeta/                           //Agrega todos los archivos de la carpeta
+
+//Sube el proyecto a GitHub
+$ git remote add origin url_del_proyecto
+
+//Ejemplo
+$ git remote add origin https://github.com/AlaskaBlackSB/introduccion-PHP.git
+
+//Crea el archivo README.md
+$ echo "# Prueba" >> README.md
+
+//Sube o actualiza el codigo a GitHub
+git push -u origin main
