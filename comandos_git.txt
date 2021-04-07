@@ -14,7 +14,7 @@ $ git remote add origin url_del_proyecto
 $ git remote add origin https://github.com/AlaskaBlackSB/introduccion-PHP.git
 
 //Crea el archivo README.md
-$ echo "# Prueba" >> README.md
+$ echo "# introducción a PHP" >> README.md
 
 //Sube o actualiza el codigo a GitHub
-git push -u origin main
+git push -u origin master

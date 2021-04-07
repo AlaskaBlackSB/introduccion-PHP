@@ -1,3 +1,5 @@
+//Distintas formas de imprimir
+
 <?php include ''?>
 
 
