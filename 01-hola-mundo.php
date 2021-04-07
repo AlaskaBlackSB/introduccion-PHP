@@ -1,6 +1,8 @@
 <?php include ''?>
 
+
 <?php
+    //La función echo puede inyectar codigo html
     echo "Hola mundo";
 ?>
 
