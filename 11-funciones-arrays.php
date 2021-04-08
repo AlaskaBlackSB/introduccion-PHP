@@ -3,10 +3,20 @@
 //Definición del arreglo
 $carrito = ['PcMasterRace', 'Zapatos', 'Telefono'];
 
-//in_array, busca elementos en un arreglo
+//Obtener el tamaño de un arreglo
+$tam = count($carrito);
+$tam2 = sizeof($carrito);
 
-var_dump( in_array('Zapatos', $carrito) );
+echo "Tamaño del arreglo: ".$tam;
+echo "<br>Tamaño del arreglo: ".$tam2;
+
 echo "<br>"; //Salto de línea
+
+//in_array, busca elementos en un arreglo
+var_dump( in_array('Zapatos', $carrito) );
+
+echo "<br>"; //Salto de línea
+
 var_dump( in_array('Reloj', $carrito) );
 
 //Ordenar elementos de un arreglos
