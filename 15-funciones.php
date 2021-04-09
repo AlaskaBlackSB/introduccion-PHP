@@ -24,4 +24,16 @@ sumar(10, 20);
 restar(10, 20);
 sumar();        //Se aplican los valores por default
 
+/* named Parameters */
+
+function multiplicar(int $a, int $b){
+    return $a * $b;
+}
+
+//puedes mandar los parámetros en desorden siempre y cuando especifiques a que variable mandarás el dato
+$res = multiplicar($b = 10, $a = 15);
+echo "<br>".$res;
+$res = multiplicar(b: 10, a: 15); //Marca error en vsc pero esta bien
+echo "<br>".$res;
+
 include 'includes/footer.php';
